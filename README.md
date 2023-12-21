@@ -18,3 +18,8 @@ The system aims to detect the presence of pedestrians, their movement patterns a
 
 # Dataset
 
+The custom dataset created for pedestrian intent detection in an Indian scenario is specifically designed to address the unique challenges posed by pedestrian behavior in Indian roads. The dataset is based on a large number of raw videos recorded using the FitSpark Eagle i9 Plus camera, which has a wide field of view and high resolution. These videos were then processed and cleaned using the Roboflow platform, which is a powerful tool for data annotation and preparation. The platform enables easy and accurate labeling of objects in images and videos, which is crucial for training machine learning models.
+
+In the custom dataset, four different classes were used for pedestrian intent detection. These classes are person facing right, person facing left, person facing towards, and person facing away. These classes were chosen based on the observation that pedestrians in Indian roads generally exhibit these four types of behavior. By limiting the dataset to only four classes, the model training process can be streamlined and optimized, making it easier to develop a reliable and accurate pedestrian intent detection system.
+
+The custom dataset created in this way can be extremely useful in developing advanced driver assistance systems and autonomous vehicles. By accurately detecting pedestrian intent, such systems can help to prevent accidents and improve road safety. Overall, the custom dataset created for pedestrian intent detection in an Indian scenario is a valuable resource for researchers and engineers working in the field of autonomous vehicles and machine learning
