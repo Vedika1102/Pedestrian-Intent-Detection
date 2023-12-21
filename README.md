@@ -25,12 +25,19 @@ In the custom dataset, four different classes were used for pedestrian intent de
 
 * person facing right
 * person facing left
-<img width="257" alt="Screenshot 2023-12-21 171757" src="https://github.com/Vedika1102/Pedestrian-Intent-Detection/assets/88620694/4a5899f7-a57a-4834-886a-278488f07f94">
-* person facing centre
-<img width="224" alt="Screenshot 2023-12-21 171905" src="https://github.com/Vedika1102/Pedestrian-Intent-Detection/assets/88620694/adccccef-23cc-430b-a684-0416cda98126">
+* person facing towards
 * person facing away
 
 These classes were chosen based on the observation that pedestrians in Indian roads generally exhibit these four types of behavior. By limiting the dataset to only four classes, the model training process can be streamlined and optimized, making it easier to develop a reliable and accurate pedestrian intent detection system.
+
+Person at the center of the frame:
+
+<img width="224" alt="Screenshot 2023-12-21 171905" src="https://github.com/Vedika1102/Pedestrian-Intent-Detection/assets/88620694/adccccef-23cc-430b-a684-0416cda98126">
+
+Person at the left side of the frame:
+
+<img width="257" alt="Screenshot 2023-12-21 171757" src="https://github.com/Vedika1102/Pedestrian-Intent-Detection/assets/88620694/4a5899f7-a57a-4834-886a-278488f07f94">
+
 
 # Model ComponentS:
 
