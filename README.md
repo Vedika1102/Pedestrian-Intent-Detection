@@ -2,7 +2,7 @@
 
 Collaboration capstone project with custom dataset for predicting the trajectory and intention behind a pedestrian's actions.
 
-Team: @vedika1102, @tanishqtodkar, @shubhpareek
+Team: @ vedika1102, @ tanishqtodkar, @ shubhpareek
 
 
   ![Main_output_1 (1)](https://github.com/Vedika1102/Pedestrian-Intent-Detection/assets/88620694/3238a5c9-81f2-479e-8726-b079e7b0137c)
