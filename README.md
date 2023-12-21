@@ -30,4 +30,15 @@ In the custom dataset, four different classes were used for pedestrian intent de
 
 These classes were chosen based on the observation that pedestrians in Indian roads generally exhibit these four types of behavior. By limiting the dataset to only four classes, the model training process can be streamlined and optimized, making it easier to develop a reliable and accurate pedestrian intent detection system.
 
+# Model ComponentS:
+
+* YOLOv3: This component serves as the object detector, with the task of recognizing and locating specific objects within an image or frame.
+
+* SORT: Operating as an object tracker, SORT is responsible for monitoring and following pedestrians across a series of frames while assigning unique identifiers to each pedestrian.
+
+* DeepSORT: Functioning as another object tracker, DeepSORT's role is to extract characteristics from the tracked pedestrians to improve their re-identification, even in situations where they may be partially obscured.
+
+* Early Fused Skeleton: This component handles the creation of skeleton maps for each tracked pedestrian, providing a visual representation of their body movements.
+
+* Spatio-Temporal DenseNet: Serving as a classifier, the Spatio-Temporal DenseNet is responsible for determining the intentions of each identified and tracked pedestrian by analyzing the last 16 frames of their movements
 
